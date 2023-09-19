@@ -70,6 +70,11 @@
 <body>
     <?php
     function forLoop($start,$end,$step){
+        if($start%2==0){
+            goto loop;
+        }
+        $start=$start+1;
+        loop:
         for($i=$start;$i<=$end;$i+=$step){
             echo "<p class='IncreamentFunction-result'>{$i}\t</p>";
         }
@@ -77,6 +82,11 @@
     }
     function whileLoop($start, $end, $step)
     {
+        if($start%2==0){
+            goto loop;
+        }
+        $start=$start+1;
+        loop:
         $i = $start;
         while ($i <= $end) {
             echo "<p class='IncreamentFunction-result'>{$i}\t</p>";
@@ -85,6 +95,11 @@
         }
     }
     function doWhileLoop($start, $end, $step){
+        if($start%2==0){
+            goto loop;
+        }
+        $start=$start+1;
+        loop:
         $i=$start;
         do{
         echo "<p class='IncreamentFunction-result'>{$i}\t</p>";
