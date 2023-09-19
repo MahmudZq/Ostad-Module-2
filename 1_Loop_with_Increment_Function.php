@@ -79,15 +79,15 @@
     {
         $i = $start;
         while ($i <= $end) {
-            $i += $step;
             echo "<p class='IncreamentFunction-result'>{$i}\t</p>";
+            $i += $step;
         }
     }
     function doWhileLoop($start, $end, $step){
         $i=$start;
         do{
-        $i += $step;
             echo "<p class='IncreamentFunction-result'>{$i}\t</p>";
+            $i += $step;         
         }
         while($i<=$end);
     }
