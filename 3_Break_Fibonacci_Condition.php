@@ -111,7 +111,7 @@
         <table border="0" align="center">
             <tr>
                 <td>Number of Fibonacci Terms</td>
-                <td> <input type="number" name="terms" placeholder="total term numbers"
+                <td> <input type="number" name="terms" placeholder="Example: 10"
                         label="Input box for total terms Value" required>
                 </td>
             </tr>
